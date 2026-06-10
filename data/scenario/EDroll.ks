@@ -9,7 +9,7 @@
 
 [anim_role_button_hide]
 
-[playbgm  storage="itukanoyume.ogg"  ]
+[playbgm  storage="itukanoyume.mp3"  ]
 [bg storage="EDroll.jpg" time="1000w"]
 [layopt layer=0 visible="true"]
 

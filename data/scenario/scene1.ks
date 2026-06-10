@@ -46,7 +46,7 @@
 [anim_role_button_visible]
 [clearfix name="skip_fix"]
 [bg storage="jinkokyo_living.jpg" time="500"]
-[playbgm storage="oyasumiday.ogg"  ]
+[playbgm storage="oyasumiday.mp3"  ]
 
 
 

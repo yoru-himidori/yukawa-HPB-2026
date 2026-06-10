@@ -9,7 +9,7 @@
 *start 
 
 
-[button x=780 y=400 graphic="title/button_start.png" enterimg="title/button_start2.png" clickimg="title/button_start3.png" clickse="pa.ogg" target="gamestart" keyfocus="1"]
+[button x=780 y=400 graphic="title/button_start.png" enterimg="title/button_start2.png" clickimg="title/button_start3.png" clickse="pa.mp3" target="gamestart" keyfocus="1"]
 
 [s]
 

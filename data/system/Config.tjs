@@ -24,7 +24,7 @@
 ;autoClickStop=true
 ;autoSpeedWithText=60
 ;cursorDefault=default
-;mediaFormatDefault=ogg
+;mediaFormatDefault=mp3
 ;defaultBgmVolume=100
 ;defaultSeVolume=100
 ;defaultMovieVolume=100

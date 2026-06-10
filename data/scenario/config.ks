@@ -257,7 +257,7 @@
 [endscript]
 
 [seopt volume="&tf.current_se_vol"]
-[playse storage="pa.ogg" buf=2]
+[playse storage="pa.mp3" buf=2]
 
 [return]
 
