@@ -1,0 +1,250 @@
+
+
+/* color styles 
+---------------------------------------------- */
+
+
+/* button 
+---------------------------------------------- */
+.glink_button {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: baseline;
+	margin: 0 2px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.glink_button:hover {
+	text-decoration: none;
+}
+.glink_button:active {
+	position: relative;
+	top: 1px;
+}
+
+
+.button_graphic {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: baseline;
+	/*margin: 0 2px;*/
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	
+	padding: 1em 2em 1em;
+	color:white;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	
+	
+}
+
+.button_graphic:hover {
+	text-decoration: none;
+}
+.button_graphic:active {
+	position: relative;
+	top: 1px;
+}
+
+
+
+.bigrounded {
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em;
+}
+.medium {
+	font-size: 12px;
+	padding: .4em 1.5em .42em;
+}
+.small {
+	font-size: 11px;
+	padding: .2em 1em .275em;
+}
+
+/*
+  テキストのサイズはここで設定しても反映されないので
+  glinkタグのsizeで設定してやってください
+*/
+
+
+/* yellow */
+.my_yellow {
+  position: relative;
+  display: inline-block;
+  padding: .75em .6em;
+  background-color: #ffffff;
+  color: #534540;
+  border-radius: 1.5em;
+  border: solid 3px #f6b457;
+  box-shadow: none;
+  box-sizing: border-box;
+  transition: .2s ease-out;
+}
+
+.my_yellow::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-position: 0 0, 16px 16px;
+  background-size: 32px 32px;
+  background-image: -webkit-radial-gradient(rgb(255, 250, 240) 20%, transparent 0), -webkit-radial-gradient(rgba(255,255,255,.3) 20%, transparent 0);
+  background-image: radial-gradient(rgba(255,255,255,.3) 20%, transparent 0), radial-gradient(rgba(255,255,255,.3) 20%, transparent 0);
+  border-radius: 1.5em;
+  border: none;
+  transition: .2s ease-out;
+  z-index: -1;
+  opacity: 0;
+}
+
+.my_yellow:hover::before {
+  opacity: 1;
+}
+
+
+
+/* lime */
+.btn_32_lime {
+  position: relative;
+  display: inline-block;
+  padding: .75em .6em;
+  background-color: #A9CF52;
+  color: #fff;
+  text-shadow: 0 2px 3px #59731D, 0 2px 3px #59731D;
+  border-radius: 1.5em;
+  border: solid 3px #fefefe;
+  box-shadow: none;
+  box-sizing: border-box;
+  transition: .2s ease-out;
+}
+
+.btn_32_lime::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-position: 0 0, 16px 16px;
+  background-size: 32px 32px;
+  background-image: -webkit-radial-gradient(rgba(255,255,255,.3) 20%, transparent 0), -webkit-radial-gradient(rgba(255,255,255,.3) 20%, transparent 0);
+  background-image: radial-gradient(rgba(255,255,255,.3) 20%, transparent 0), radial-gradient(rgba(255,255,255,.3) 20%, transparent 0);
+  border-radius: 1.5em;
+  border: none;
+  transition: .2s ease-out;
+  z-index: -1;
+  opacity: 0;
+}
+
+.btn_32_lime:hover::before {
+  opacity: 1;
+}
+
+.btn_32_lime:active{
+  transform: scale(.96) translateY(3px);
+}
+
+
+/* green */
+.btn_32_green {
+  position: relative;
+  display: inline-block;
+  padding: .75em .6em;
+  background-color: #00ADA9;
+  color: #fff;
+  text-shadow: 0 2px 3px #006664, 0 2px 3px #006664;
+  border-radius: 1.5em;
+  border: solid 3px #fefefe;
+  box-shadow: none;
+  box-sizing: border-box;
+  transition: .2s ease-out;
+}
+
+.btn_32_green::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-position: 0 0, 16px 16px;
+  background-size: 32px 32px;
+  background-image: -webkit-radial-gradient(rgba(255,255,255,.3) 20%, transparent 0), -webkit-radial-gradient(rgba(255,255,255,.3) 20%, transparent 0);
+  background-image: radial-gradient(rgba(255,255,255,.3) 20%, transparent 0), radial-gradient(rgba(255,255,255,.3) 20%, transparent 0);
+  border-radius: 1.5em;
+  border: none;
+  transition: .2s ease-out;
+  z-index: -1;
+  opacity: 0;
+}
+
+.btn_32_green:hover::before {
+  opacity: 1;
+}
+
+.btn_32_green:active{
+  transform: scale(.96) translateY(3px);
+}
+
+
+/* blue */
+.btn_32_blue {
+  position: relative;
+  display: inline-block;
+  padding: .75em .6em;
+  background-color: #2B71B8;
+  color: #fff;
+  text-shadow: 0 2px 3px #10457A, 0 2px 3px #10457A;
+  border-radius: 1.5em;
+  border: solid 3px #fefefe;
+  box-shadow: none;
+  box-sizing: border-box;
+  transition: .2s ease-out;
+}
+
+.btn_32_blue::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-position: 0 0, 16px 16px;
+  background-size: 32px 32px;
+  background-image: -webkit-radial-gradient(rgba(255,255,255,.2) 20%, transparent 0), -webkit-radial-gradient(rgba(255,255,255,.2) 20%, transparent 0);
+  background-image: radial-gradient(rgba(255,255,255,.2) 20%, transparent 0), radial-gradient(rgba(255,255,255,.2) 20%, transparent 0);
+  border-radius: 1.5em;
+  border: none;
+  transition: .2s ease-out;
+  z-index: -1;
+  opacity: 0;
+}
+
+.btn_32_blue:hover::before {
+  opacity: 1;
+}
+
+.btn_32_blue:active{
+  transform: scale(.96) translateY(3px);
+}
+
+

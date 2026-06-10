@@ -1,0 +1,1 @@
+function hex2rgb(a){if(a.slice(0,1)=="#"){a=a.slice(1)}if(a.length==3){a=a.slice(0,1)+a.slice(0,1)+a.slice(1,2)+a.slice(1,2)+a.slice(2,3)+a.slice(2,3)}return[a.slice(0,2),a.slice(2,4),a.slice(4,6)].map(function(b){return parseInt(b,16)})};

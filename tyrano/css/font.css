@@ -1,0 +1,6 @@
+   /* ウェブフォントを使用する場合はここに定義を追加して下さい */
+   @font-face {
+    font-family: 'MPLUS';
+    src: url('../../data/others/MPLUS.woff') format('truetype');
+    font-weight:normal;font-style:normal;
+    }
