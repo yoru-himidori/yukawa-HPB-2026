@@ -1,5 +1,5 @@
 *start
-
+[p]
 [cm  ]
 [clearfix]
 [start_keyconfig]
